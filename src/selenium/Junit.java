@@ -27,6 +27,7 @@ public void before(){
 	@Test
 	public void test() {
 		 driver.get("http://www.amazon.com");
+		 driver.getTitle();
 
 	}
 
