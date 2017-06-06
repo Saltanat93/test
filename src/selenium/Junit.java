@@ -15,7 +15,7 @@ public class Junit {
 public void before(){
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\CybertekStudent\\Desktop\\Libraries\\Drivers\\chromedriver.exe");
    driver=new ChromeDriver();
-   driver.get("http://www.amazon.com");
+  
 
 
 
@@ -26,6 +26,7 @@ public void before(){
 
 	@Test
 	public void test() {
+		 driver.get("http://www.amazon.com");
 
 	}
 
